@@ -4,9 +4,9 @@ let yCor = 0;
 
  function setup() {
   //createCanvas(1200,800);
-  createCanvas(windowWidth, windowHeight)
+   createCanvas(windowWidth, windowHeight);
    background(0);
-  colorMode(HSB);
+   colorMode(HSB);
 }
  function draw() {
    drawCircles();
