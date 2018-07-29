@@ -3,7 +3,8 @@ let xCor = 0;
 let yCor = 0;
 
  function setup() {
-  createCanvas(1200,800);
+  //createCanvas(1200,800);
+  createCanvas(windowWidth, windowHeight)
    background(0);
   colorMode(HSB);
 }
