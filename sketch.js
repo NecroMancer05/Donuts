@@ -28,7 +28,7 @@ let yCor = 0;
  function mouseDragged() {
   stroke(x,255,255);
   strokeWeight(5);
-  //noFill();
+  noFill();
   ellipse(mouseX,mouseY,25,25);
    if(x > 255){
     y+=50;
