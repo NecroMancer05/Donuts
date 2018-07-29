@@ -9,7 +9,7 @@ let yCor = 0;
    colorMode(HSB);
 }
  function draw() {
-   drawCircles();
+   //drawCircles();
  }
 
  function drawCircles() {
